@@ -30,7 +30,7 @@ function App() {
         <p>{lang['app.subhead']}</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.bocacode.com/get-started"
           target="_blank"
           rel="noopener noreferrer"
         >
