@@ -1,11 +1,16 @@
 import { useState } from 'react';
 import English from './lang/en.json';
 import Spanish from './lang/es.json';
+import French from './lang/fr.json';
 import './App.css';
 
 const locale = navigator.language || 'en';
 
-const _lang = (locale === 'es') ? Spanish : English;
+const _lang = (locale === 'es') 
+                ? Spanish 
+                : (locale === 'fr')
+                  ? French
+                  : English;
 
 function App() {
   const [lang, setLang] = useState(_lang)
@@ -15,6 +20,7 @@ function App() {
         <div>
           <button onClick={() => setLang(English)}>EN</button>
           <button onClick={() => setLang(Spanish)}>ES</button>
+          <button onClick={() => setLang(French)}>FR</button>
         </div>
         <h1>{lang['app.header']}</h1>
         <p>{lang['app.subhead']}</p>
