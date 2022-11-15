@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Example of how to set up Internationalization
+## (e.g. switching from EN to ES)
 
 ## Available Scripts
 
