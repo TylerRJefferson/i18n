@@ -1,5 +1,6 @@
 # Example of how to set up Internationalization
 ## (e.g. switching from EN to ES)
+Please note: translations may not be 100% accurate
 
 ## Available Scripts
 
